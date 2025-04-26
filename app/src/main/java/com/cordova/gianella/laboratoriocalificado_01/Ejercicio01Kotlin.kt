@@ -8,18 +8,20 @@ fun esAnagrama(palabra1: String, palabra2: String): Boolean {
 }
 
 fun main() {
-    // Solicitar las palabras al usuario
-    println("Ingresa la primera palabra:")
-    val palabra1 = readLine() ?: ""  // Lee la primera palabra
 
-    println("Ingresa la segunda palabra:")
-    val palabra2 = readLine() ?: ""  // Lee la segunda palabra
+    println("Ingresa la primera palabra:")     // Solicitamos la primera palabra al usuario
+    val palabra1 = readLine() ?: ""            // Indicamos que debe leer la primera palabra
 
-    // Verificar si son anagramas
-    val resultado = esAnagrama(palabra1, palabra2)
+    println("Ingresa la segunda palabra:")     //Solictamos la segunda palabra al usuario
+    val palabra2 = readLine() ?: ""             // Indicamos que debe leer la primera palabra
+
+
+    val resultado = esAnagrama(palabra1, palabra2) // Verificar si son anagramas
     if (resultado) {
-        println("\"$palabra1\" y \"$palabra2\" son anagramas.")
+        println("\"$palabra1\" y \"$palabra2\" Esas palabras si son anagramas :) ") //Si las palbras son anagramas devolvera el mensaje
     } else {
-        println("\"$palabra1\" y \"$palabra2\" no son anagramas.")
+        println("\"$palabra1\" y \"$palabra2\" Esas palabras no son anagramas :(") //Si las palabras no son anagramas devolvera el mensaje
     }
 }
+
+
