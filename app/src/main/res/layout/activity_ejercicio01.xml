@@ -128,7 +128,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="4dp"
-                android:text="|"
+                android:text="&#8593;"
                 android:textSize="20sp" />
 
             <View
@@ -149,7 +149,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="4dp"
-                android:text="..."
+                android:text="&#8592;"
                 android:textSize="20sp" />
 
             <Button
@@ -157,7 +157,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="4dp"
-                android:text="|"
+                android:text="&#8595;"
                 android:textSize="20sp" />
 
             <Button
@@ -165,7 +165,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="4dp"
-                android:text="..."
+                android:text="&#8594;"
                 android:textSize="20sp" />
         </LinearLayout>
 
